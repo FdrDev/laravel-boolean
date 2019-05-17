@@ -1,0 +1,135 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+//@import font-awesome
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Rubik', sans-serif;
+  color:#1B3C59;
+}
+
+header{
+  z-index: 100;
+  background: #fff;
+  nav{
+    width: 90%;
+    margin: auto;
+    height:90px;
+
+    li{
+      list-style-type: none;
+      margin: 0 25px;
+      text-transform: uppercase;
+    }
+
+    input{
+      background: #F47637;
+      color:#fff;
+    }
+
+  }
+}
+
+.main{
+  .promo{
+    h1{
+      color:#61CE4E;
+      font-size: 45px;
+    }
+  }
+
+  .promoImg{
+    position: relative;
+    img{
+      width: 90%;
+      }
+
+      &::before{
+        content: "";
+        position:absolute;
+        right: -335px;
+        width: 780px;
+        height: 550px;
+        top:-95px;
+        z-index: -1;
+        background: #61CE4E;
+        transform: skew(150deg, 180deg);
+        overflow: hidden;
+      }
+
+  }
+  input{
+    background: #F47637;
+  }
+
+  }
+  .partner{
+    height: 200px;
+    background: #1B3C59;
+
+    .loghi-partner{
+      width: 80%;
+      margin:auto;
+      img{
+        height: 35px;
+        cursor: pointer;
+      }
+    }
+
+
+  }
+
+
+  .message{
+    background: #E8EBF1;
+    h1{
+
+    }
+
+    .example-wrapper{
+      width: 80%;
+      margin: auto;
+      .example-box{
+        position: relative;
+        p{
+
+        }
+
+        img{
+          position: absolute;
+
+          left: -20px;
+        }
+      }
+    }
+  }
+
+  footer{
+    .footer-head{
+      img{
+        width: 25%;
+      }
+    }
+
+    .footer-bottom{
+      height: 50px;
+      background: #1B3C59;
+
+      .text-btm-footer{
+        line-height: 50px;
+      }
+    }
+  }
