@@ -10668,6 +10668,10 @@ a.text-dark:focus {
   box-sizing: border-box;
 }
 
+.show {
+  display: block !important;
+}
+
 body {
   font-family: "Rubik", sans-serif;
   color: #1B3C59;
@@ -10759,8 +10763,42 @@ header nav input {
   left: -20px;
 }
 
+.faq-head {
+  margin: auto;
+}
+
+.faq {
+  margin: auto;
+}
+
+.faq .faqSx {
+  background: #fff;
+}
+
+.faq .faqSx span {
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.faq .faqSx p {
+  display: none;
+}
+
+.faq .faqDx {
+  background: #1B3C59;
+}
+
+.faq .faqDx span {
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.faq .faqDx p {
+  display: none;
+}
+
 footer .footer-head img {
-  width: 25%;
+  width: 290px;
 }
 
 footer .footer-bottom {
