@@ -36848,6 +36848,7 @@ function showAnswer() {
   console.log();
   var answerBox = me.next();
   answerBox.toggleClass("show");
+  answer.fadeIn();
 }
 
 function init() {

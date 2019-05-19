@@ -10669,7 +10669,8 @@ a.text-dark:focus {
 }
 
 .show {
-  display: block !important;
+  opacity: 1 !important;
+  height: auto !important;
 }
 
 body {
@@ -10775,17 +10776,28 @@ header nav input {
   background: #fff;
 }
 
+.faq .faqSx h4 {
+  display: inline-block;
+}
+
 .faq .faqSx span {
   font-size: 35px;
   cursor: pointer;
 }
 
 .faq .faqSx p {
-  display: none;
+  transition: 0.4s;
+  height: 0;
+  opacity: 0;
+  width: 500px;
 }
 
 .faq .faqDx {
   background: #1B3C59;
+}
+
+.faq .faqDx h4 {
+  display: inline-block;
 }
 
 .faq .faqDx span {
@@ -10794,7 +10806,10 @@ header nav input {
 }
 
 .faq .faqDx p {
-  display: none;
+  transition: 0.4s;
+  opacity: 0;
+  width: 500px;
+  height: 0;
 }
 
 footer .footer-head img {

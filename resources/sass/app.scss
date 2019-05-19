@@ -17,7 +17,8 @@
 }
 
 .show{
-  display: block !important;
+  opacity: 1 !important;
+  height: auto !important;
 }
 
 body{
@@ -134,25 +135,40 @@ header{
     .faqSx{
       background: #fff;
 
-        span{
-          font-size: 35px;
-          cursor: pointer;
-        }
-      p{
-
-        display: none;
+      h4{
+        display: inline-block;
       }
-    }
-    .faqDx{
-      background: #1B3C59;
 
       span{
         font-size: 35px;
         cursor: pointer;
       }
-      p{
 
-        display: none;
+      p{
+        transition: 0.4s;
+        height: 0;
+        opacity: 0;
+        width: 500px;
+      }
+
+    }
+    .faqDx{
+      background: #1B3C59;
+
+      h4{
+        display: inline-block;
+      }
+
+      span{
+        font-size: 35px;
+        cursor: pointer;
+      }
+
+      p{
+        transition: 0.4s;
+        opacity: 0;
+        width: 500px;
+        height: 0;
       }
     }
 

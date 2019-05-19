@@ -10,7 +10,7 @@
         <li>corso</li>
         <li>metodo</li>
         <li>dopo il corso</li>
-        <li>faq</li>
+        <li><a href="/booleantheme/secondPage">faq</a></li>
       </ul>
       <input class="p-1 px-4 border-0" type="button" name="" value="Iscriviti">
     </div>
